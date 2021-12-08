@@ -29,7 +29,6 @@ const backpack = {
   },
   lidOpen: false,
   /**
-   *
    * @param {bool} lidStatus
    */
   toggleLid: function (lidStatus) {
@@ -37,7 +36,6 @@ const backpack = {
     updateBackpack(`Lid status changed.`);
   },
   /**
-   * 
    * @param {int} lengthLeft 
    * @param {int} lengthRight 
    */
@@ -49,7 +47,6 @@ const backpack = {
 };
 
 /**
- *
  * @param {Object} backpack
  * @returns HTML
  */
