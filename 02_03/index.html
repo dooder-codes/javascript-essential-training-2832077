@@ -4,7 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Module demo</title>
-    <script src="script.js" defer></script>
+    <!--
+      * Render blocking
+      * The browser loads the JavaScript asynchronously when it is encountered, then waits until all HTML is rendered before executing the script
+    -->
+    <!--
+      Another way to express a <script> stag at the end of an
+      HTML document
+     -->
+    <!-- * <script src="script.js" defer></script> -->
+    <!--
+      * Browser downloads JavaScript in parallel while HTML renders. When JS is fully loaded, rendering stops while JavaScript is executed.
+     -->
+    <script src="script.js" async></script>
   </head>
+
   <body></body>
 </html>
