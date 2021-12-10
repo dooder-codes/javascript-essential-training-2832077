@@ -18,4 +18,4 @@ const Book = {
     Gender: "Male",
   },
 };
-Book.Topics
+Book.Topics.push()
