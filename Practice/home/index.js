@@ -11,8 +11,5 @@ function objectConstructor(day, month, year) {
     console.log(this.day, this.month, this.year);
   };
 }
-const date = new Date().getUTCDate()
-    .getDay()
-console.log(date);
 const newDate = new objectConstructor(9, 12, 2021);
 newDate.printDate();
