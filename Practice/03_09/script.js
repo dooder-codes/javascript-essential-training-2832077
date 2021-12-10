@@ -34,4 +34,4 @@ const backpack = {
   },
 };
 backpack.newItemName("Today's Backpack")
-console.log();
+console.log(backpack);
