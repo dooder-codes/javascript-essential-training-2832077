@@ -9,7 +9,7 @@
  */
 
 const Book = {
-  title: "How to Code Your Own Software",
+  Title: "How to Code Your Own Software",
   Release_Date: 2022,
   Topics: [],
   author: {
