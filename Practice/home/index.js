@@ -12,3 +12,4 @@ function objectConstructor(day, month, year) {
   };
 }
 const newDate = new objectConstructor(9, 12, 2021);
+newDate.printDate()
