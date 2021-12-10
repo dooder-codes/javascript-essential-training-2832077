@@ -33,5 +33,5 @@ const backpack = {
     this.volume = volume;
   },
 };
-backpack
+backpack.newItemName("")
 console.log();
