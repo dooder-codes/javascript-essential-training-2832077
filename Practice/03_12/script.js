@@ -7,4 +7,4 @@
  * - Test the objects by calling their properties and using their methods in the console.
  */
 import backpack from "./Backpack.js"
-console.log(backpack);
+console.log(backpack.name);
