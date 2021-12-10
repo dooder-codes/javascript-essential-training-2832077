@@ -11,7 +11,7 @@
 const Book = {
   title: "How to Code Your Own Software",
   Release_Date: 2022,
-  topics: [],
+  Topics: [],
   author: {
     name: "Michael Smith",
     Age: 22,
