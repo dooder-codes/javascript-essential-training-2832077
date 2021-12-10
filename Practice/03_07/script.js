@@ -20,3 +20,4 @@ const Book = {
 };
 Book.Topics.push("JavaScript", "Computer Science", "Coding");
 console.log(Book);
+console.log(Book.Topics[1]);
