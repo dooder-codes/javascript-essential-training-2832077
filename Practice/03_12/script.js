@@ -6,3 +6,5 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+import backpack from "./Backpack.js"
+console.log(backpack);
