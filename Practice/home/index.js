@@ -8,8 +8,8 @@ function objectConstructor(day, month, year) {
     this.year = year;
   };
   this.printDate = function () {
-    console.log(this.date, this.month, this.year);
+    console.log(this.day, this.month, this.year);
   };
 }
 const newDate = new objectConstructor(9, 12, 2021);
-newDate.printDate()
+newDate.printDate();
