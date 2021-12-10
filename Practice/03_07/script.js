@@ -10,7 +10,7 @@
 
 const Book = {
   title: "How to Code Your Own Software",
-    Release_Date: 2022,
+  Release_Date: 2022,
   topics: [],
   author: {
     name: "Michael Smith",
@@ -18,4 +18,5 @@ const Book = {
     Gender: "Male",
   },
 };
-Book.Topics.push("JavaScript","")
+Book.Topics.push("JavaScript", "Computer Science", "Coding");
+console.log(Book);
