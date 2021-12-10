@@ -7,4 +7,5 @@
  * - Test the objects by calling their properties and using their methods in the console.
  */
 import backpack from "./Backpack.js"
-console.log(backpack.name);
+const newBackPack = new backpack();
+console.log(newBackPack.name);
