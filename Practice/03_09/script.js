@@ -33,4 +33,5 @@ const backpack = {
     this.volume = volume;
   },
 };
-console.log(backpack);
+backpack
+console.log();
