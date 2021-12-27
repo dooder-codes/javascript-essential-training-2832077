@@ -25,7 +25,6 @@ const everydayPack = new Backpack(
 
 const SecretsToSuccess = new Book();
 const OnTheRoad = new Book("Blue Jennings", "On The Road");
-const 
+
 console.log(SecretsToSuccess);
 console.log(OnTheRoad);
-
