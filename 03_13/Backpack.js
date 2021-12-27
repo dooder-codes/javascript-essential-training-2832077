@@ -27,6 +27,11 @@ class Backpack {
     this.strapLength.left = lengthLeft;
     this.strapLength.right = lengthRight;
   }
+
+  /**
+   * 
+   * @returns Backpack's age (days)
+   */
   backpackAge() {
     let now = new Date();
     let acquired = new Date(this.dateAcquired);
