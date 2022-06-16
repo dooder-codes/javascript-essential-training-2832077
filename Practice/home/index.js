@@ -1,15 +1,28 @@
-function objectConstructor(day, month, year) {
-  this.day = day;
-  this.month = month;
-  this.year = year;
-  this.changeDate = function (day, month, year) {
-    this.day = day;
-    this.month = month;
-    this.year = year;
-  };
-  this.printDate = function () {
-    console.log(this.day, this.month, this.year);
-  };
-}
-const newDate = new objectConstructor(9, 12, 2021);
-newDate.printDate();
+// const main = document.createElement("main");
+
+// const markup = () => {
+//   return `
+//     <div>
+//     <p>${this}</p>
+//     <p>${document}</p>
+//     </div>
+//     `;
+// };
+// main.innerHTML = markup();
+// document.body.appendChild(main);
+// console.log(this);
+// console.log(document);
+const Person = {
+  firstname: "Michael",
+  lastname: "Smith",
+  interests: ["Software", "MacBook", "Art"],
+  fullname: function () {
+    return this.firstname + " " + this.lastname;
+  },
+  spitFunction() {
+    const para = document.createElement("p");
+    para.textContent = this.fullname();
+    document.body.appendChild(para);
+  },
+};
+Person.spitFunction();
